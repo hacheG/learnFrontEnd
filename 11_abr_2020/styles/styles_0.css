@@ -1,0 +1,24 @@
+#headerBox {
+    width: 500px;
+    height: 400px;
+    /*background-color: blue;*/
+    margin: 15px auto;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 15px;
+    box-shadow: cornflowerblue 3px 4px 5px;
+    /*background: -webkit-linear-gradient(left, rgb(113, 113, 235), rgb(95, 228, 228));*/
+    background: -webkit-radial-gradient(center, ellipse, rgb(113, 113, 235), rgb(95, 228, 228) );
+}
+
+@font-face {
+    font-family:'hache';
+    src:url('Starjedi.ttf');
+}
+
+#spanBox {
+    /*font-family: 'Geostar', cursive;*/
+    /*font: bold 50px 'hache';*/
+    font-size: 50px;
+    text-shadow: #fff 1px 3px 3px;
+}
